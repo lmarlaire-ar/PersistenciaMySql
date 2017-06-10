@@ -20,6 +20,7 @@ public class ConnectionMySql {
 			Connection con = (Connection)DriverManager.getConnection(DB_URL, ID, PASS);
 			
 			System.out.println("Conección exitosa!!");
+			System.out.println("Ahora a llenar la BD");
 			
 //			Statement st = (Statement)con.createStatement();
 //			st.execute("Select * from personas ");
